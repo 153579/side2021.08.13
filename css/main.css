@@ -31,11 +31,11 @@ body .box .input {
 
 body .box i {
   position: absolute;
-  top: 40px;
-  right: 15px;
-  -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
-  font-size: 26px;
+  top: 50px;
+  right: 28px;
+  -webkit-transform: translate(-40%, -40%);
+          transform: translate(-40%, -40%);
+  font-size: 36px;
   color: deepskyblue;
   -webkit-transition: 0.2s;
   transition: 0.2s;
