@@ -1,6 +1,6 @@
+@import url("https://fonts.googleapis.com/css2?family=Black+Han+Sans&display=swap");
 body {
-  margin: 0;
-  padding: 0;
+  font-family: 'Black Han Sans', sans-serif;
   background: #140f1d;
 }
 
@@ -21,10 +21,22 @@ body .title {
       -ms-flex-align: center;
           align-items: center;
   color: deepskyblue;
+  margin-bottom: 20px;
+}
+
+body .title h1,
+body .title h2 {
+  text-align: center;
+  margin: 15px 0;
+  word-break: keep-all;
 }
 
 body .title h1 {
-  text-align: center;
+  font-size: 3em;
+}
+
+body .title h2 {
+  font-size: 2em;
 }
 
 body .contWrap {
@@ -89,7 +101,10 @@ body .contWrap .box:hover input {
 
 @media (min-width: 320px) and (max-width: 757px) {
   .title h1 {
-    font-size: 1.7em;
+    font-size: 2.7em !important;
+  }
+  .title h2 {
+    font-size: 1.7em !important;
   }
   .box:hover input {
     width: 310px !important;
