@@ -1,9 +1,11 @@
 @charset "utf-8";
-@import url("https://fonts.googleapis.com/css2?family=Black+Han+Sans&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Stylish&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 @import "_mixin";
+@import "reset";
 
 body {
-    font-family: 'Black Han Sans', sans-serif;
+    font-family: 'Stylish', sans-serif;
     background: #140f1d;
 
     .title {
@@ -21,6 +23,7 @@ body {
             text-align: center;
             margin: 15px 0;
             word-break: keep-all;
+            font-weight: 200;
         }
 
         h1 {
@@ -33,16 +36,18 @@ body {
     }
 
     .contWrap {
-        width: 100%;
+        // width: 100%;
 
         .box {
+            width: 350px;
+            margin: 0 auto;
             // max-width: 350px;
             // position: absolute;
             // top: 50%;
             // left: 50%;
             // transform: translate(-50%, -50%);
             display: flex;
-            flex-direction: row;
+            flex-direction: column;
             justify-content: center;
             align-items: center;
 
@@ -75,6 +80,15 @@ body {
                 font-size: 36px;
                 color: $mainColor;
                 transition: 0.2s;
+            }
+
+            .moveBtn{
+                margin: 40px 0 0 0;
+                color: #fff;
+                font-size: 2em;
+                background: $mainColor;
+                padding: 4px 7px;
+                border-radius: 10px;
             }
         }
 
