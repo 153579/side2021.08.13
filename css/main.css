@@ -31,8 +31,8 @@ body .box .input {
 
 body .box i {
   position: absolute;
-  top: 50px;
-  right: 28px;
+  top: 37px;
+  right: 9px;
   -webkit-transform: translate(-40%, -40%);
           transform: translate(-40%, -40%);
   font-size: 36px;
