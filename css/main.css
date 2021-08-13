@@ -22,7 +22,8 @@ body .box .input {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   font-family: monospace;
-  font-size: 26px;
+  font-size: 30px;
+  font-weight: 900;
   color: deepskyblue;
   outline: none;
   -webkit-transition: 0.5s;
